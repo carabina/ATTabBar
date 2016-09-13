@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ATTabBarDemo.xcodeproj">
+      location = "self:/Users/Aesir/Aesir Titan/Frameworks/ATTabBar/ATTabBar.xcodeproj">
    </FileRef>
 </Workspace>

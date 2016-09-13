@@ -47,7 +47,7 @@ static UIColor *normalColor;
 static UIColor *highlightedColor;
 
 static inline NSString *NSStringFromInteger(NSInteger index){
-    return [NSString stringWithFormat:@"%ld",index];
+    return [NSString stringWithFormat:@"%ld",(long)index];
 }
 
 static inline CGFloat widthOf(UIView *view){

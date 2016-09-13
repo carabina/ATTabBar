@@ -58,7 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DD65336A1D87CEE400C0917E /* ATTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD65336A1D87CEE400C0917E /* ATTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD65336E1D87CEE400C0917E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD6533701D87CEE400C0917E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD6533711D87CEE400C0917E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		DD65336B1D87CEE400C0917E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD65336A1D87CEE400C0917E /* ATTabBarDemo.app */,
+				DD65336A1D87CEE400C0917E /* ATTabBar.app */,
 				DD6533891D87CEFC00C0917E /* ATTabBar.framework */,
 			);
 			name = Products;
@@ -194,7 +194,7 @@
 			);
 			name = ATTabBarDemo;
 			productName = ATTabBarDemo;
-			productReference = DD65336A1D87CEE400C0917E /* ATTabBarDemo.app */;
+			productReference = DD65336A1D87CEE400C0917E /* ATTabBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DD6533881D87CEFC00C0917E /* ATTabBar */ = {
@@ -238,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD6533651D87CEE400C0917E /* Build configuration list for PBXProject "ATTabBarDemo" */;
+			buildConfigurationList = DD6533651D87CEE400C0917E /* Build configuration list for PBXProject "ATTabBar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -419,7 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.titanstudio.ATTabBarDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ATTabBar;
 			};
 			name = Debug;
 		};
@@ -431,7 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.titanstudio.ATTabBarDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ATTabBar;
 			};
 			name = Release;
 		};
@@ -494,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD6533651D87CEE400C0917E /* Build configuration list for PBXProject "ATTabBarDemo" */ = {
+		DD6533651D87CEE400C0917E /* Build configuration list for PBXProject "ATTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD65337F1D87CEE400C0917E /* Debug */,
@@ -510,6 +510,7 @@
 				DD6533831D87CEE400C0917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD6533921D87CEFC00C0917E /* Build configuration list for PBXNativeTarget "ATTabBar" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				DD6533941D87CEFC00C0917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD6533971D87CF0600C0917E /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				DD6533991D87CF0600C0917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
